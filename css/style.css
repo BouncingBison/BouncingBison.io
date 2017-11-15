@@ -20,7 +20,7 @@ html * {
 body {
     font-size: 100%;
     font-family: "Ubuntu", sans-serif;
-    color: #D55838;
+    color: green;
     background-color: white;
 }
 
@@ -30,8 +30,13 @@ html {
 }
 
 a {
-    color: #F5F5F5;
+    color: purple;
     text-decoration: none;
+}
+
+li {
+    text-align: center;
+    color: orange;
 }
 
 img {
@@ -256,7 +261,7 @@ Main components
     position: absolute;
     height: 4px;
     width: 4px;
-    background-color: blue;
+    background-color: ;
     border-radius: 50%;
     left: 50%;
     top: 50%;
@@ -329,7 +334,7 @@ Main components
 }
 
 .touch #cd-vertical-nav a.is-selected span:last-child {
-    color: blue;
+    color: green;
 }
 
 .touch #cd-vertical-nav.open {
