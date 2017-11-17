@@ -20,7 +20,7 @@ html * {
 body {
     font-size: 100%;
     font-family: "Ubuntu", sans-serif;
-    color: green;
+    color: ;
     background-color: white;
 }
 
@@ -36,7 +36,7 @@ a {
 
 li {
     text-align: center;
-    color: orange;
+    color: black;
 }
 
 img {
@@ -355,7 +355,7 @@ Main components
 
 .touch #cd-vertical-nav.open+.cd-nav-trigger span::before,
 .touch #cd-vertical-nav.open+.cd-nav-trigger span::after {
-    background-color: #3e3947;
+    background-color: yellow;
     height: 3px;
     width: 20px;
     border-radius: 0;
