@@ -390,3 +390,28 @@ Main components
         bottom: 40px;
     }
 }
+
+#contact-header {
+    position: relative;
+}
+
+#contact-card {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin-left: -100px;
+    margin-right: -100px;
+    top: 50%;
+    left: 50%;
+    background-color: orange;
+}
+
+#contact-phone {
+    position: relative;
+    color: black;
+}
+
+#contact-email {
+    position: relative;
+    color: black;
+}

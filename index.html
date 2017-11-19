@@ -13,7 +13,6 @@
     <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
-
     <title>Michael Ross Curnes</title>
 </head>
 
@@ -32,12 +31,12 @@
                     <span class="cd-label">About Me</span>
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#section3" data-number="3">
                     <span class="cd-dot"></span>
                     <span class="cd-label">My Work</span>
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="#section4" data-number="4">
                     <span class="cd-dot"></span>
@@ -50,12 +49,12 @@
                     <span class="cd-label">Contact Me</span>
                 </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#section6" data-number="6">
                     <span class="cd-dot"></span>
                     <span class="cd-label">Contact</span>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </nav>
     <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
@@ -69,11 +68,6 @@
     <section id="section2" class="cd-section">
         <h1>I enjoy using Node.js, mySQL, CSS, and HTML for projects. Currently I'm learning how to implement React and Vue in my front end design and MongoDB on the backend. I love learning about new languages and frameworks as well.</h1>
 
-        <!-- 
-        <img src="nodeLogo.png">
-        <img src="mySql.png">
-        <img src="htmlLogo.png">
-        <img src=""> -->
 
         <p> </p>
         <a href="#section3" class="cd-scroll-down cd-img-replace">scroll down</a>
@@ -99,11 +93,45 @@
     <section id="section5" class="cd-section">
         <p></p>
     </section>
-    <!-- cd-section -->
 
-    <section id="section6" class="cd-section">
-        <p></p>
-    </section>
+    <section id="section6" class="cd-section"> -->
+
+        <h1 id="contact-header">Contact Me</h1>
+
+        <div id="contact-card">
+            <p id="contact-phone">Phone: 913.952.3072</p>
+            <p id="contact-email">Email: michaelrosscurnes@gmail.com</p>
+        </div>
+        <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec">
+            <!-- change the form action to your script url -->
+
+            <fieldset class="pure-group">
+                <label for="name">Name: </label>
+                <input id="name" name="name" placeholder="What your Mom calls you" />
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="email"><em>Your</em> Email Address:</label>
+                <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+                <span id="email-invalid" style="display:none">
+              Must be a valid email address</span>
+            </fieldset>
+
+            <fieldset class="pure-group">
+                <label for="color">Favourite Color: </label>
+                <input id="color" name="color" placeholder="green" />
+            </fieldset>
+
+            <button class="button-success pure-button button-xlarge">
+            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+        </form>
+    </section> -->
     <!-- cd-section -->
 
     <script src="js/jquery-2.1.1.js"></script>
