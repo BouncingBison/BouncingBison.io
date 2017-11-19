@@ -103,12 +103,6 @@
             <p id="contact-email">Email: michaelrosscurnes@gmail.com</p>
         </div>
         <!-- SETTING UP CONTACT FORM -->
-
-        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <!-- Style The Contact Form How Ever You Prefer -->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
-
         <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec">
             <!-- change the form action to your script url -->
 
@@ -132,7 +126,6 @@
             <fieldset class="pure-group">
                 <label for="company"><em>Your</em>Company:</label>
                 <input id="company" name="Company" type="company" value="" required placeholder="business you represent" />
-
             </fieldset>
 
             <button class="button-success pure-button button-xlarge">
@@ -149,6 +142,8 @@
 
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
+    <script src="form-submission-handler.js"></script>
+    <script src="google-apps-script.js"></script>
     <!-- Resource jQuery -->
 </body>
 
