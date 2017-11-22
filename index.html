@@ -38,9 +38,10 @@
                 </a>
             </li> -->
             <li>
-                <a href="#section4" data-number="4">
+
+                <a href="https://github.com/BouncingBison" onclick="window.open('https://github.com/BouncingBison')" data-number="3">
                     <span class="cd-dot"></span>
-                    <span class="cd-label">Github</span>
+                    <span class="cd-label">Check out my Github</span>
                 </a>
             </li>
             <li>
@@ -67,78 +68,49 @@
 
     <section id="section2" class="cd-section">
         <h1>I enjoy using Node.js, mySQL, CSS, and HTML for projects. Currently I'm learning how to implement React and Vue in my front end design and MongoDB on the backend. I love learning about new languages and frameworks as well.</h1>
-
-
-        <p> </p>
         <a href="#section3" class="cd-scroll-down cd-img-replace">scroll down</a>
     </section>
-
     <section id="section3" class="cd-section">
-        <p></p>
+        <p>Featured Project Coming Soon</p>
         <a href="#section4" class="cd-scroll-down cd-img-replace">scroll down</a>
     </section>
     <!-- cd-section -->
-
     <section id="section4" class="cd-section">
-        <p>
-            <a href="https://github.com/BouncingBison">Visit me on Github</a>
-
-        </p>
-
         <a href="#section5" class="cd-scroll-down cd-img-replace">scroll down</a>
-
     </section>
     <!-- cd-section -->
-
     <section id="section5" class="cd-section">
-        <p></p>
-    </section>
+        <form id="gform" method="POST" class="form-style-8 pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec">
+            <h3>Send me a message</h3>
 
-    <section id="section6" class="cd-section"> -->
+            <label for="name">Name: </label>
+            <input id="name" type="name" name="name" />
 
-        <h1 id="contact-header">Contact Me</h1>
 
-        <div id="contact-card">
-            <p id="contact-phone">Phone: 913.952.3072</p>
-            <p id="contact-email">Email: michaelrosscurnes@gmail.com</p>
-        </div>
-        <!-- SETTING UP CONTACT FORM -->
-        <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec">
-            <!-- change the form action to your script url -->
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="10"></textarea>
 
-            <fieldset class="pure-group">
-                <label for="name">Name: </label>
-                <input id="name" name="name" placeholder="What your Mom calls you" />
-            </fieldset>
-
-            <fieldset class="pure-group">
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" rows="10" placeholder="Tell us what's on your mind..."></textarea>
-            </fieldset>
-
-            <fieldset class="pure-group">
-                <label for="email"><em>Your</em> Email Address:</label>
-                <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
-                <span id="email-invalid" style="display:none">
+            <label for="email"> Your Email Address:</label>
+            <input id="email" name="email" type="email" value="" />
+            <span id="email-invalid" style="display:none">
              Must be a valid email address</span>
-            </fieldset>
+            <label for="company">Company:</label>
+            <input type="company" value="" />
 
-            <fieldset class="pure-group">
-                <label for="company"><em>Your</em>Company:</label>
-                <input id="company" name="company" type="company" value="" required placeholder="business you represent" />
-            </fieldset>
 
-            <button class="button-success pure-button button-xlarge">
-           <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+            <button id="contact-button">Submit</button>
         </form>
-        <!-- Submit the Form to Google Using "AJAX" -->
-        <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-        <!-- END OF CONTACT FORM  -->
+
+        <div style="display:none;" id="thankyou_message">
+            <h1>Thank you for your message, I will reach out to you shortly.</h1>
+        </div>
+
     </section>
     <!-- cd-section -->
-
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
     <!-- <script src="form-submission-handler.js"></script>
     <script src="google-apps-script.js"></script> -->
     <!-- Resource jQuery -->

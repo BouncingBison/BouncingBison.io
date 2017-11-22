@@ -391,27 +391,84 @@ Main components
     }
 }
 
-#contact-header {
-    position: relative;
+#contact-section-header-card {
+    width: 100%;
+    height: auto;
+    background-color: white;
 }
 
-#contact-card {
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    margin-left: -100px;
-    margin-right: -100px;
-    top: 50%;
-    left: 50%;
+#contact-section-header {
+    font-size: 3vw;
+}
+
+
+/* CONTACT FORM */
+
+.form-style-8 {
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form-style-8 h3 {
+    background: #4D4D4D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="name"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="company"],
+.form-style-8 textarea,
+.form-style-8 select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+.form-style-8 textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+#contact-button {
+    border-radius: 25px;
     background-color: orange;
+    text-align: center;
+    transform: uppercase;
+    width: 20%;
+    height: 50%;
 }
 
-#contact-phone {
-    position: relative;
-    color: black;
-}
-
-#contact-email {
-    position: relative;
-    color: black;
+@media only screen and (max-width: 500px) {
+    .form-style-8 {
+        font-family: 'Open Sans Condensed', arial, sans;
+        width: 100%;
+        padding: 30px;
+        background: #FFFFFF;
+        margin: 50px auto;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    }
 }
