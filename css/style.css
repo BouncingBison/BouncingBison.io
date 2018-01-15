@@ -107,9 +107,12 @@ Modules - reusable parts of our design
 }
 
 .description-container {
-    height: 100px;
-    width: 200px;
+    height: 60%;
+    width: 100%;
     background-color: white;
+    padding: 20px;
+    border-color: grey;
+    border-radius: 10px;
 }
 
 .medi {
