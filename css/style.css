@@ -13,7 +13,7 @@
         
         body,
         html {
-            background-color: #414a51;
+            background-color: #EFEFEF;
             height: 100%;
         }
         
@@ -50,6 +50,15 @@
             margin-left: 40px;
         }
         
+        #greeting {
+            /* left: 10px; */
+            bottom: 100px;
+            position: relative;
+            font-size: 900%;
+            text-align: left;
+            float: left;
+        }
+        
         #portrait-holder {
             float: right;
             position: relative;
@@ -61,11 +70,6 @@
             background-image: url(./css/img/744px-No_foto.svg.png);
             background-repeat: no-repeat;
             background-size: contain;
-        }
-        
-        #greeting {
-            font-size: 900%;
-            text-align: left;
         }
         /* =========================================== */
         /* =========================================== */
@@ -89,13 +93,14 @@
         
         .container {
             position: absolute;
-            top: 50%;
+            top: 55%;
             left: 50%;
             transform: translate(-50%, -50%);
+            padding: 20px;
         }
         
         table {
-            width: 800px;
+            width: 100%;
             border-collapse: collapse;
             overflow: hidden;
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
@@ -378,6 +383,7 @@
             /* padding: 10px; */
             left: 50%;
             top: 20%;
+            font-weight: 900;
             bottom: auto;
             right: auto;
             -webkit-transform: translateX(-50%) translateY(-50%);
@@ -392,9 +398,10 @@
         
         .cd-section h1 {
             color: #414a51;
-            font-weight: 300;
+            /* font-weight: 300; */
             /* text-transform: uppercase; */
             /* font-size: 900; */
+            line-height: 1.5;
             font-size: 3.25rem;
         }
         
