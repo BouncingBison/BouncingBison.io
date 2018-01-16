@@ -154,7 +154,7 @@
             min-height: 100%;
             position: relative;
             padding: 2em 0;
-            background-image: linear-gradient( to right, #414a51, red, #414a51);
+            background-color: #4D4D4D;
             /* background: -webkit-linear-gradient(top, #25c481, #25b7c4);
             background: linear-gradient(to bottom, #25c481, #25b7c4); */
         }
@@ -167,7 +167,8 @@
             padding: 20px;
             width: 80%;
             height: 80%;
-            background-color: white;
+            background-color: rgb(240, 178, 80);
+            opacity: 0.5;
         }
         /* =========================================== */
         /* =========================================== */
