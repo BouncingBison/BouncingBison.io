@@ -78,22 +78,31 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             font-size: 40px;
-            height: 50%;
+            height: 15%;
             width: 50%;
             left: 25%;
             position: relative;
             text-align: center;
         }
         
-        .projectImage {}
+        .projectImageArtisans {
+            height: 50%;
+            width: 50%;
+            left: 500;
+            text-align: center;
+            display: inline-block;
+            background-image: url(../css/img/artisans.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
         
         .projectDescription {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
-            font-size: 40px;
+            font-size: 30px;
+            /* padding-top: 50px; */
             height: 25%;
-            width: 50%;
-            left: 25%;
+            width: 100%;
             position: relative;
             text-align: center;
         }
@@ -127,20 +136,29 @@
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: bolder;
                 font-size: 20px;
-                height: 50%;
+                height: 15%;
                 width: 50%;
                 left: 25%;
                 position: relative;
                 text-align: center;
             }
-            .projectImage {}
+            .projectImage {
+                height: 50%;
+                width: 80%;
+                left: 25%;
+                text-align: center;
+                display: inline-block;
+                background-image: url(./css/img/artisans.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
             .projectDescription {
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bolder;
-                font-size: 15px;
+                font-size: 20px;
+                padding-top: 50px;
                 height: 25%;
-                width: 50%;
-                left: 25%;
+                width: 100%;
                 position: relative;
                 text-align: center;
             }
