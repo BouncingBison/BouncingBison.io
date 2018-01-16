@@ -145,6 +145,8 @@
         /* =========================================== */
         
         table {
+            text-align: center;
+            position: relative;
             width: 100%;
             border-collapse: collapse;
             overflow: hidden;
