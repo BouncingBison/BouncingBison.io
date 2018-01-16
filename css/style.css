@@ -186,6 +186,16 @@
             }
         }
         /* end of table media query  */
+        /* stack section styling  */
+        
+        #techStack {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            margin: 10px;
+            padding-bottom: 10px;
+        }
         
         table {
             text-align: center;
