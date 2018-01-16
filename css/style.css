@@ -55,6 +55,7 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: bolder;
             font-size: 40px;
+            color: white;
             height: 50%;
             width: 50%;
             left: 25%;
@@ -65,6 +66,7 @@
         #introduction {
             /* background-color: blue; */
             font-family: Arial, Helvetica, sans-serif;
+            color: white;
             font-weight: bolder;
             font-size: 40px;
             height: 25%;
@@ -75,7 +77,8 @@
         }
         
         .projectTitle {
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
             font-weight: bolder;
             font-size: 40px;
             height: 15%;
@@ -99,6 +102,7 @@
         .projectDescription {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
+            color: white;
             font-size: 30px;
             /* padding-top: 50px; */
             height: 25%;
@@ -109,20 +113,20 @@
         
         #streamixCS {
             position: relative;
-            height: 100%;
+            height: 60%;
             left: 25%;
             width: 50%;
-            background-color: rgba(47, 44, 44, 0.822);
-            opacity: .5;
+            /* background-color: rgba(47, 44, 44, 0.822);
+            opacity: .5; */
             z-index: 99;
         }
         
         #steamWords {
-            font-size: 100px;
+            font-size: 50px;
             text-align: center;
             font-weight: bold;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
             z-index: 100;
         }
         /* =========================================== */
@@ -142,7 +146,7 @@
             #introduction h2 {
                 /* background-color: blue; */
                 font-family: Arial, Helvetica, sans-serif;
-                color: black;
+                color: white;
                 font-weight: bolder;
                 font-size: 15px;
                 height: 25%;
@@ -153,6 +157,7 @@
             }
             .projectTitle {
                 font-family: Georgia, 'Times New Roman', Times, serif;
+                color: white;
                 font-weight: bolder;
                 font-size: 20px;
                 height: 15%;
@@ -162,9 +167,10 @@
                 text-align: center;
             }
             .projectImage {
+                position: relative;
                 height: 50%;
-                width: 80%;
-                left: 25%;
+                width: 100%;
+                padding: 50px;
                 text-align: center;
                 display: inline-block;
                 background-image: url(./css/img/artisans.png);
@@ -173,6 +179,7 @@
             }
             .projectDescription {
                 font-family: Arial, Helvetica, sans-serif;
+                color: white;
                 font-weight: bolder;
                 font-size: 20px;
                 padding-top: 50px;
@@ -207,9 +214,9 @@
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 20px;
-            width: 80%;
+            width: 50%;
             height: 80%;
-            background-color: rgba(221, 211, 197, 0.767);
+            background-color: rgba(221, 211, 197, 0.185);
             opacity: 0.5;
         }
         /* =========================================== */
@@ -273,8 +280,9 @@
         /* stack section styling  */
         
         #techStack {
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
+            color: white;
             font-size: 30px;
             text-align: center;
             margin: 10px;
