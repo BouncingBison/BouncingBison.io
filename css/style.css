@@ -154,6 +154,9 @@
             min-height: 100%;
             position: relative;
             padding: 2em 0;
+            background-image: linear-gradient( to right, #414a51, red, #414a51);
+            /* background: -webkit-linear-gradient(top, #25c481, #25b7c4);
+            background: linear-gradient(to bottom, #25c481, #25b7c4); */
         }
         
         .container {
@@ -169,6 +172,7 @@
         /* =========================================== */
         /* =========================================== */
         /* =========================================== */
+        /* Section Gradient Styling */
         /* =========================================== */
         /* =========================================== */
         /* =========================================== */
