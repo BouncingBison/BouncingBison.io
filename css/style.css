@@ -97,6 +97,52 @@
             text-align: center;
         }
         /* =========================================== */
+        
+        @media only screen and (max-width: 500px) {
+            #introName {
+                /* background-color: black; */
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bolder;
+                font-size: 20px;
+                height: 50%;
+                width: 50%;
+                left: 25%;
+                position: relative;
+                text-align: center;
+            }
+            #introduction {
+                /* background-color: blue; */
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 15px;
+                height: 25%;
+                width: 50%;
+                left: 25%;
+                position: relative;
+                text-align: center;
+            }
+            .projectTitle {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bolder;
+                font-size: 20px;
+                height: 50%;
+                width: 50%;
+                left: 25%;
+                position: relative;
+                text-align: center;
+            }
+            .projectImage {}
+            .projectDescription {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 15px;
+                height: 25%;
+                width: 50%;
+                left: 25%;
+                position: relative;
+                text-align: center;
+            }
+        }
         /* =========================================== */
         /* =========================================== */
         /* =========================================== */
