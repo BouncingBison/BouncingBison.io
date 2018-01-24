@@ -92,11 +92,11 @@
         
         .projectImage1 {
             height: 50%;
-            width: 50%;
+            width: 100%;
             left: 500;
             text-align: center;
             display: inline-block;
-            /* background-image: url(../css/img/medi.png); */
+            background-image: url(../css/img/medi.png);
             background-repeat: no-repeat;
             background-size: contain;
         }
