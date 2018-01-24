@@ -198,7 +198,7 @@
                 text-align: center;
                 display: inline-block;
                 /* background-1color: red; */
-                background-image: url(../css/img/medi.png);
+                /* background-image: url(../css/img/medi.png); */
                 background-repeat: no-repeat;
                 background-size: contain;
             }
