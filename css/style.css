@@ -179,20 +179,16 @@
             } */
             .container {
                 border-top: whitesmoke;
-                border-top-width: 100vmin;
+                /* border-top-width: 100vmin; */
                 border-top-style: solid;
-                /* position: relative; */
-                padding: 5px;
-                margin: 10px;
-                /* width: 100vw; */
-                width: 100vmin;
-                overflow: auto;
-                /* height: 100%; */
+                /* padding: 5px;
+                margin: 5v; */
+                /* width: 400px; */
+                width: 100vmax;
+                max-width: 400px;
                 border-bottom: 3px;
                 border-bottom: style;
                 border-bottom-color: white;
-                /* background-color: rgba(221, 211, 197, 0.185); */
-                /* opacity: 0.5; */
             }
             .projectTitle {
                 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -210,6 +206,8 @@
             .projectImage1 {
                 height: 50%;
                 width: 100vw;
+                max-width: 400px;
+                float: right;
                 /* width: 100vmin; */
                 padding: 1%;
                 margin: 1%;
@@ -222,6 +220,7 @@
                 background-image: url(../css/img/medi.png);
                 background-repeat: no-repeat;
                 background-size: contain;
+                overflow: hidden;
             }
             .projectImage2 {
                 height: 50%;
@@ -264,8 +263,7 @@
             /* background: -webkit-linear-gradient(top, #25c481, #25b7c4);
             background: linear-gradient(to bottom, #25c481, #25b7c4); */
         }
-        
-        .container {
+        /* .container {
             border-top: whitesmoke;
             border-top-width: 20px;
             border-top-style: solid;
@@ -279,9 +277,8 @@
             border-bottom: 3px;
             border-bottom: style;
             border-bottom-color: white;
-            /* background-color: rgba(221, 211, 197, 0.185); */
-            /* opacity: 0.5; */
-        }
+            
+        } */
         /* =========================================== */
         /* =========================================== */
         /* =========================================== */
