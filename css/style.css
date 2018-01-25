@@ -103,6 +103,7 @@
             background-image: url(../css/img/medi.png);
             background-repeat: no-repeat;
             background-size: contain;
+            cursor: pointer;
         }
         
         .projectImageArtisans {
@@ -179,13 +180,11 @@
             } */
             .container {
                 border-top: whitesmoke;
-                /* border-top-width: 100vmin; */
+                border-top-width: 100vmin;
                 border-top-style: solid;
-                /* padding: 5px;
-                margin: 5v; */
-                /* width: 400px; */
-                width: 100vmax;
-                max-width: 400px;
+                padding: 5px;
+                margin: 10px;
+                width: 100vmin, 100vmax;
                 border-bottom: 3px;
                 border-bottom: style;
                 border-bottom-color: white;
@@ -202,12 +201,11 @@
                 padding-bottom: 1px;
                 position: relative;
                 text-align: center;
+                cursor: pointer;
             }
             .projectImage1 {
                 height: 50%;
                 width: 100vw;
-                max-width: 400px;
-                float: right;
                 /* width: 100vmin; */
                 padding: 1%;
                 margin: 1%;
@@ -216,11 +214,11 @@
                 border-bottom-color: red; */
                 text-align: center;
                 display: inline-block;
+                cursor: pointer;
                 /* position: relative; */
                 background-image: url(../css/img/medi.png);
                 background-repeat: no-repeat;
                 background-size: contain;
-                overflow: hidden;
             }
             .projectImage2 {
                 height: 50%;
@@ -256,6 +254,7 @@
         /* =========================================== */
         
         .cd-section {
+            height: auto;
             min-height: 100%;
             position: relative;
             padding: 2em 0;
@@ -263,7 +262,8 @@
             /* background: -webkit-linear-gradient(top, #25c481, #25b7c4);
             background: linear-gradient(to bottom, #25c481, #25b7c4); */
         }
-        /* .container {
+        
+        .container {
             border-top: whitesmoke;
             border-top-width: 20px;
             border-top-style: solid;
@@ -277,8 +277,9 @@
             border-bottom: 3px;
             border-bottom: style;
             border-bottom-color: white;
-            
-        } */
+            /* background-color: rgba(221, 211, 197, 0.185); */
+            /* opacity: 0.5; */
+        }
         /* =========================================== */
         /* =========================================== */
         /* =========================================== */
@@ -991,3 +992,54 @@
                 color: white;
             }
         }
+        /* ======================================================== */
+        /* input {
+            display: none;
+            visibility: hidden;
+        }
+        
+        label {
+            display: block;
+            padding: 0.5em;
+            text-align: center;
+            border-bottom: 1px solid #CCC;
+            color: #666;
+        }
+        
+        label:hover {
+            color: #000;
+        }
+        
+        label::before {
+            font-family: Consolas, monaco, monospace;
+            font-weight: bold;
+            font-size: 15px;
+            content: "+";
+            vertical-align: text-top;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 3px;
+            background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+        }
+        
+        #expand {
+            height: 0px;
+            overflow: hidden;
+            transition: height 0.5s;
+            background: url(http://placekitten.com/g/600/300);
+            color: #FFF;
+        }
+        
+        section {
+            padding: 0 20px;
+        }
+        
+        #toggle:checked~#expand {
+            height: 250px;
+        }
+        
+        #toggle:checked~label::before {
+            content: "-";
+        } */
+        /* expand END */
