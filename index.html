@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/svgAnimation.css">
     <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
@@ -32,12 +33,6 @@
                     <span class="cd-label">About Me</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="#section3" data-number="3">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">My Work</span>
-                </a>
-            </li> -->
             <li>
 
                 <a href="https://github.com/BouncingBison" onclick="window.open('https://github.com/BouncingBison')" data-number="3">
@@ -51,12 +46,7 @@
                     <span class="cd-label">Contact Me</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="#section6" data-number="6">
-                    <span class="cd-dot"></span>
-                    <span class="cd-label">Contact</span>
-                </a>
-            </li> -->
+
         </ul>
     </nav>
     <a class="cd-nav-trigger cd-img-replace"><span></span></a>
@@ -66,32 +56,34 @@
 
     <section id="section1" class="cd-section">
 
-        <div class="container">
+        <div class="containerGreeting hvr-round-corners">
 
-            <div id="introName">
-                <h1>Hello</h1>
+            <div id="introductionBox">
+
+                <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> -->
+                <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+                <h1>
+                    <span class="txt-rotate" data-period="2000" data-rotate='[ "Hello", "Welcome" ]'></span>
+                </h1>
             </div>
-            <div id="introduction">I'm Michael and I love creating things. Feel free to contact me at the bottom of the page to discuss a project, job, or just to connect!</div>
 
 
         </div>
 
 
 
-        <a href="#section2" class="cd-scroll-down"></a>
+        <a href="#section2 " class="cd-scroll-down "></a>
     </section>
     <!-- cd-section -->
 
-    <section id="section2" class="cd-section">
-        <div class="container" style="overflow-x:auto;">
+    <section id="section2 " class="cd-section ">
+        <div class="containerStack hvr-round-corners " style="overflow-x:auto; ">
 
-            <div id="techStack">
-                <h2> I have experience building full stack applications using many technologies. When I'm not learning more about these I spend my time learning more about the industry and new technologies.</h2>
+            <div>
+                <h2 id="aboutStack"> I have experience building full stack applications using many technologies. When I'm not learning more about these I spend my time learning more about the industry and new technologies.</h2>
             </div>
-
-
-
             <table>
+                <!-- <table class="pulse"> -->
                 <tbody>
                     <tr>
                         <td>Node</td>
@@ -114,57 +106,69 @@
                 </tbody>
             </table>
         </div>
-        <a href="#section3" class="cd-scroll-down cd-img-replace"></a>
+        <a href="#section3 " class="cd-scroll-down cd-img-replace"></a>
     </section>
 
-    <section id="section3" class="cd-section">
+    <section id="section3 " class="cd-section ">
 
-        <div class="container">
+        <div class="containerGreeting hvr-round-corners">
 
+
+            <div class="projectTitle ">
+                <h1 class="headerBorder">Medi-Schedule</h1>
+            </div>
+
+            <div class="projectImage2 "></div>
+
+            <div class="projectDescription ">
+                <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
+
+            </div>
+            <!-- 
             <div class="projectTitle">
 
                 <h1>MediPlanner</h1>
             </div>
 
 
-            <div class="projectImage1" onclick="window.open('https://github.com/BouncingBison/medi-schedule')">
+            <div class="projectImage1 " onclick="window.open( 'https://github.com/BouncingBison/medi-schedule') ">
 
             </div>
 
-            <div class="projectDescription">
-                <h2>MediPlanner creates a centralized solution for Nurses and Health-Administrators to review and plan patient care. </h2>
-                <!-- <input id="toggle" type="checkbox" checked>
-                <label for="toggle">xpand for more</label>
-                <div id="expand">
+            <div class="projectDescription ">
+                <h2>MediPlanner creates a centralized solution for Nurses and Health-Administrators to review and plan patient care. </h2> -->
+            <!-- <input id="toggle " type="checkbox " checked>
+                <label for="toggle ">xpand for more</label>
+                <div id="expand ">
                     <section>
                         <p>mew</p>
                     </section>
                 </div> -->
 
 
-            </div>
+        </div>
         </div>
 
-        <a href="#section4" class="cd-scroll-down cd-img-replace"></a>
+        <a href="#section4 " class="cd-scroll-down cd-img-replace "></a>
 
     </section>
 
     <!-- cd-section -->
-    <section id="section4" class="cd-section">
+    <section id="section4 " class="cd-section ">
 
 
 
 
 
-        <div class="container">
+        <div class="containerGreeting hvr-round-corners">
 
-            <div class="projectTitle">
-                <h1>Artisans</h1>
+            <div class="projectTitle ">
+                <h1 class="headerBorder">Artisans</h1>
             </div>
 
-            <div class="projectImage2"></div>
+            <div class="projectImage2 "></div>
 
-            <div class="projectDescription">
+            <div class="projectDescription ">
                 <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
 
             </div>
@@ -175,54 +179,63 @@
 
 
 
-        <a href="#section5" class="cd-scroll-down cd-img-replace"></a>
+        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
     </section>
 
     <!-- cd-section -->
-    <section id="section5" class="cd-section">
-        <div class="container">
-            <div id="streamixCS">
-                <div id="steamWords">even more projects on the way</div>
+    <section id="section5 " class="cd-section ">
+        <div id="containerComing">
+
+            EDIT ON
+            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+            <div class="content">
+                <div class="content__container">
+                    <p class="content__container__text">
+                        Hello
+                    </p>
+
+                    <ul class="content__container__list">
+                        <li class="content__container__list__item">world !</li>
+                        <li class="content__container__list__item">bob !</li>
+                        <li class="content__container__list__item">users !</li>
+                        <li class="content__container__list__item">everybody !</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div class="projectDescription">
+        </div>
         </div>
 
-
-
-
-
-
-
-        <a href="#section6" class="cd-scroll-down cd-img-replace"></a>
+        <a href="#section6 " class="cd-scroll-down cd-img-replace "></a>
     </section>
 
 
     <!-- cd-section -->
-    <section id="section6" class="cd-section">
-        <form id="gform" method="POST" class="form-style-8 pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec">
+    <section id="section6 " class="cd-section ">
+        <form id="gform " method="POST " class="form-style-8 pure-form pure-form-stacked " data-email="example@email.net " action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec ">
             <h3>Send me a message</h3>
 
-            <label for="name">Name: </label>
-            <input id="name" type="name" name="name" />
+            <label for="name ">Name: </label>
+            <input id="name " type="name " name="name " />
 
 
-            <label for="message">Message: </label>
-            <textarea id="message" name="message" rows="10"></textarea>
+            <label for="message ">Message: </label>
+            <textarea id="message " name="message " rows="10 "></textarea>
 
-            <label for="email"> Your Email Address:</label>
-            <input id="email" name="email" type="email" value="" />
-            <span id="email-invalid" style="display:none">
+            <label for="email "> Your Email Address:</label>
+            <input id="email " name="email " type="email " value=" " />
+            <span id="email-invalid " style="display:none ">
              Must be a valid email address</span>
-            <label for="company">Company:</label>
-            <input type="company" value="" />
+            <label for="company ">Company:</label>
+            <input type="company " value=" " />
 
 
-            <button id="contact-button">Submit</button>
+            <button id="contact-button ">Submit</button>
         </form>
 
-        <div style="display:none;" id="thankyou_message">
+        <div style="display:none; " id="thankyou_message ">
             <h1>Thank you for your message, I will reach out to you shortly.</h1>
         </div>
 
@@ -230,11 +243,13 @@
 
 
     <!-- cd-section -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Submit the Form to Google Using "AJAX" -->
-    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-    <!-- <script src="form-submission-handler.js"></script>
-    <script src="google-apps-script.js"></script> -->
+    <script src="js/jquery-2.1.1.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/rotation.js "></script>
+    <script src="js/svgAnimation.js"></script>
+    <!-- Submit the Form to Google Using "AJAX " -->
+    <script data-cfasync="false " type="text/javascript " src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js "></script>
+    <!-- <script src="form-submission-handler.js "></script>
+    <script src="google-apps-script.js "></script> -->
     <!-- Resource jQuery -->
 </body>
