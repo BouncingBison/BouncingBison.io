@@ -496,6 +496,7 @@
             transform: translate(-50%, -50%);
             -webkit-box-shadow: 0 30px 50px -20px #2e0642;
             box-shadow: 0 30px 50px -20px #2e0642;
+            animation: hvr-round-corners 2s;
         }
         
         .hvr-round-corners:hover,

@@ -86,27 +86,52 @@
                 <!-- <table class="pulse"> -->
                 <tbody>
                     <tr>
-                        <td>Node</td>
-                        <td>React</td>
+                        <td class="data">Node</td>
+                        <td class="data">HTML</td>
                     </tr>
                     <tr>
-                        <td>Express</td>
-                        <td>CSS</td>
+                        <td class="data">Express</td>
+                        <td class="data">CSS</td>
 
                     </tr>
                     <tr>
-                        <td>MongoDB</td>
-                        <td>Sequelize</td>
-
-                    </tr>
-                    <tr>
-                        <td>MySQL</td>
-                        <td>HTML</td>
+                        <td class="data">MySQL</td>
+                        <td class="data">Sequelize</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <a href="#section3 " class="cd-scroll-down cd-img-replace"></a>
+    </section>
+
+
+
+    <section id="section4 " class="cd-section ">
+
+
+
+
+
+        <div class="containerGreeting hvr-round-corners">
+
+            <div class="projectTitle ">
+                <h1 class="headerBorder">Blog</h1>
+            </div>
+
+            <div class="projectImage2 "></div>
+
+            <div class="projectDescription ">
+                <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
     </section>
 
     <section id="section3 " class="cd-section ">
@@ -124,27 +149,6 @@
                 <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
 
             </div>
-            <!-- 
-            <div class="projectTitle">
-
-                <h1>MediPlanner</h1>
-            </div>
-
-
-            <div class="projectImage1 " onclick="window.open( 'https://github.com/BouncingBison/medi-schedule') ">
-
-            </div>
-
-            <div class="projectDescription ">
-                <h2>MediPlanner creates a centralized solution for Nurses and Health-Administrators to review and plan patient care. </h2> -->
-            <!-- <input id="toggle " type="checkbox " checked>
-                <label for="toggle ">xpand for more</label>
-                <div id="expand ">
-                    <section>
-                        <p>mew</p>
-                    </section>
-                </div> -->
-
 
         </div>
         </div>
@@ -173,6 +177,20 @@
 
             </div>
         </div>
+        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
+    </section>
+
+    <!-- cd-section -->
+    <section id="section4 " class="cd-section ">
+
+        <div class="containerGreeting hvr-round-corners">
+
+
+
+            <div>More Projects Coming Soon</div>
+
+
+        </div>
 
 
 
@@ -182,34 +200,8 @@
         <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
     </section>
 
-    <!-- cd-section -->
-    <section id="section5 " class="cd-section ">
-        <div id="containerComing">
 
-            EDIT ON
-            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-            <div class="content">
-                <div class="content__container">
-                    <p class="content__container__text">
-                        Hello
-                    </p>
-
-                    <ul class="content__container__list">
-                        <li class="content__container__list__item">world !</li>
-                        <li class="content__container__list__item">bob !</li>
-                        <li class="content__container__list__item">users !</li>
-                        <li class="content__container__list__item">everybody !</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        </div>
-        </div>
-
-        <a href="#section6 " class="cd-scroll-down cd-img-replace "></a>
-    </section>
 
 
     <!-- cd-section -->
@@ -242,11 +234,24 @@
     </section>
 
 
+
     <!-- cd-section -->
     <script src="js/jquery-2.1.1.js "></script>
     <script src="js/main.js "></script>
     <script src="js/rotation.js "></script>
-    <script src="js/svgAnimation.js"></script>
+    <!-- <script src="js/reveal.js "></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+    <script>
+        // interval passed to reveal
+        window.sr = ScrollReveal({
+            duration: 2000
+        });
+        sr.reveal('.data', 50);
+    </script>
+
+
     <!-- Submit the Form to Google Using "AJAX " -->
     <script data-cfasync="false " type="text/javascript " src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js "></script>
     <!-- <script src="form-submission-handler.js "></script>
