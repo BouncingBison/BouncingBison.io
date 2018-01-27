@@ -56,7 +56,7 @@
 
     <section id="section1" class="cd-section">
 
-        <div class="containerGreeting hvr-round-corners">
+        <div class="dataGreeting hvr-round-corners containerGreeting">
 
             <div id="introductionBox">
 
@@ -65,43 +65,44 @@
                 <h1>
                     <span class="txt-rotate" data-period="2000" data-rotate='[ "Hello", "Welcome" ]'></span>
                 </h1>
+                <div class="data projectReveal ">My name is Michael and I love building full stack applications and learning new things.</div>
             </div>
 
 
         </div>
 
 
-
-        <a href="#section2 " class="cd-scroll-down "></a>
+        <!-- 
+        <a href="#section2 " class="cd-scroll-down "></a> -->
     </section>
     <!-- cd-section -->
 
     <section id="section2 " class="cd-section ">
-        <div class="containerStack hvr-round-corners " style="overflow-x:auto; ">
+        <div class="containerStack  hvr-round-corners " style="overflow-x:auto; ">
 
             <div>
                 <h2 id="aboutStack"> I have experience building full stack applications using many technologies. When I'm not learning more about these I spend my time learning more about the industry and new technologies.</h2>
             </div>
-            <table>
+            <table class="data2">
                 <!-- <table class="pulse"> -->
                 <tbody>
                     <tr>
-                        <td class="data">Node</td>
-                        <td class="data">HTML</td>
+                        <td class="data2">Node</td>
+                        <td class="data2">HTML</td>
                     </tr>
                     <tr>
-                        <td class="data">Express</td>
-                        <td class="data">CSS</td>
+                        <td class="data2">Express</td>
+                        <td class="data2">CSS</td>
 
                     </tr>
                     <tr>
-                        <td class="data">MySQL</td>
-                        <td class="data">Sequelize</td>
+                        <td class="data2">MySQL</td>
+                        <td class="data2">Sequelize</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <a href="#section3 " class="cd-scroll-down cd-img-replace"></a>
+        <!-- <a href="#section3 " class="cd-scroll-down cd-img-replace"></a> -->
     </section>
 
 
@@ -121,7 +122,10 @@
             <div class="projectImage2 "></div>
 
             <div class="projectDescription ">
-                <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
+                <h2> Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans
+                    uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses
+                    the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN
+                    stack to connect contractors and customers with an experience built for Nigerian commerceArtisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
 
             </div>
         </div>
@@ -131,7 +135,7 @@
 
 
 
-        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
+        <!-- <a href="#section5 " class="cd-scroll-down cd-img-replace "></a> -->
     </section>
 
     <section id="section3 " class="cd-section ">
@@ -153,7 +157,7 @@
         </div>
         </div>
 
-        <a href="#section4 " class="cd-scroll-down cd-img-replace "></a>
+        <!-- <a href="#section4 " class="cd-scroll-down cd-img-replace "></a> -->
 
     </section>
 
@@ -177,7 +181,7 @@
 
             </div>
         </div>
-        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
+        <!-- <a href="#section5 " class="cd-scroll-down cd-img-replace "></a> -->
     </section>
 
     <!-- cd-section -->
@@ -187,7 +191,11 @@
 
 
 
-            <div>More Projects Coming Soon</div>
+            <div class="data3 txt-rotate headerBorder">More Projects Coming Soon</div>
+            <div class="data3 projectReveal">Project One</div>
+            <div class="data3 projectReveal"> Project Two</div>
+            <div class="data3 projectReveal ">Project Three</div>
+
 
 
         </div>
@@ -197,7 +205,7 @@
 
 
 
-        <a href="#section5 " class="cd-scroll-down cd-img-replace "></a>
+        <!-- <a href="#section5 " class="cd-scroll-down cd-img-replace "></a> -->
     </section>
 
 
@@ -205,8 +213,46 @@
 
 
     <!-- cd-section -->
-    <section id="section6 " class="cd-section ">
-        <form id="gform " method="POST " class="form-style-8 pure-form pure-form-stacked " data-email="example@email.net " action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec ">
+    <section id="section6 " class="cd-section">
+
+
+
+        <form id="gform" method="POST" class="form-style-8 pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec">
+            <h1>Let's get in touch!</h1>
+            <br>
+            <br>
+            <label for="name">Name: </label>
+            <input id="name" type="name" name="name" />
+
+
+            <label for="message">Message: </label>
+            <!-- <textarea id="message" name="message" rows="10"></textarea> -->
+            <textarea placeholder="" onkeyup="adjust_textarea(this)"></textarea>
+
+
+            <label for="email"> Email Address:</label>
+            <input id="email" name="email" type="email" value="" />
+            <span id="email-invalid" style="display:none">
+                     Must be a valid email address</span>
+
+
+
+            <label for="company">Company:</label>
+            <input type="company" value="" />
+
+
+            <button id="contact-button">
+                   <i></i>&nbsp;Send</button>
+        </form>
+
+        <div style="display:none;" id="thankyou_message">
+            <div class="">
+                <h1 class="projectReveal">Looking forward to chatting!</h1>
+            </div>
+        </div>
+
+
+        <!-- <form id="gform " method="POST " class="form-style-8 pure-form pure-form-stacked " data-email="example@email.net " action="https://script.google.com/macros/s/AKfycbwLjS0Up9ThJZBZ1OOq0ZxX4XXn2tBuH_MqUJ6ennjYtzsSUM46/exec ">
             <h3>Send me a message</h3>
 
             <label for="name ">Name: </label>
@@ -216,7 +262,7 @@
             <label for="message ">Message: </label>
             <textarea id="message " name="message " rows="10 "></textarea>
 
-            <label for="email "> Your Email Address:</label>
+            <label for="email"> Your Email Address:</label>
             <input id="email " name="email " type="email " value=" " />
             <span id="email-invalid " style="display:none ">
              Must be a valid email address</span>
@@ -224,13 +270,12 @@
             <input type="company " value=" " />
 
 
-            <button id="contact-button ">Submit</button>
-        </form>
+            <button id="contact-button">Submit</button>
+        </form> -->
 
         <div style="display:none; " id="thankyou_message ">
             <h1>Thank you for your message, I will reach out to you shortly.</h1>
         </div>
-
     </section>
 
 
@@ -239,17 +284,59 @@
     <script src="js/jquery-2.1.1.js "></script>
     <script src="js/main.js "></script>
     <script src="js/rotation.js "></script>
-    <!-- <script src="js/reveal.js "></script> -->
+    <!-- from cdn links -->
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <!-- reveal JS link  -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
+    <!-- form script -->
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+            h.style.height = "20px";
+            h.style.height = (h.scrollHeight) + "px";
+        }
+    </script>
 
     <script>
         // interval passed to reveal
         window.sr = ScrollReveal({
-            duration: 2000
+            duration: 2500
         });
-        sr.reveal('.data', 50);
+        // sr.reveal('.dataGreeting', 1);
+        sr.reveal('.data', 1);
+        sr.reveal('.data2', 10);
+        sr.reveal('.data3', 10);
     </script>
+
+    <script>
+        var $animation_elements = $('.animation-element');
+        var $window = $(window);
+
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+
+            $.each($animation_elements, function() {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+
+                //check to see if this current container is within viewport
+                if ((element_bottom_position >= window_top_position) &&
+                    (element_top_position <= window_bottom_position)) {
+                    $element.addClass('hvr-round-corners:active');
+                } else {
+                    $element.removeClass('in-view');
+                }
+            });
+        }
+
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+    </script>
+
 
 
     <!-- Submit the Form to Google Using "AJAX " -->

@@ -11,6 +11,10 @@
             box-sizing: border-box;
         }
         
+        .sr .containerGreeting {
+            visibility: hidden;
+        }
+        
         body,
         html {
             height: 100%;
@@ -255,8 +259,8 @@
             height: 90%;
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-            -webkit-box-shadow: 0 30px 50px -20px #2e0642;
-            box-shadow: 0 30px 50px -20px #2e0642;
+            -webkit-box-shadow: 0 30px 50px 10px #2e0642;
+            box-shadow: 0 30px 50px 10px #2e0642;
         }
         
         #aboutStack {
@@ -285,6 +289,18 @@
             width: 50%;
             left: 25%;
             padding-top: 25%;
+        }
+        
+        .projectReveal {
+            font-family: 'VT323', monospace;
+            font-size: 200%;
+            color: white;
+            position: relative;
+            text-align: center;
+            display: inline-block;
+            width: 50%;
+            left: 25%;
+            padding-top: 5%;
         }
         
         .container {
@@ -496,7 +512,8 @@
             transform: translate(-50%, -50%);
             -webkit-box-shadow: 0 30px 50px -20px #2e0642;
             box-shadow: 0 30px 50px -20px #2e0642;
-            animation: hvr-round-corners 2s;
+            -webkit-transition-duration: 2.5s;
+            transition-duration: 2.5s;
         }
         
         .hvr-round-corners:hover,
