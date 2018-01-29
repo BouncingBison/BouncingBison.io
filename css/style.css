@@ -60,17 +60,33 @@
         }
         
         .projectTitle {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'VT323', monospace;
+            font: kerning 2;
+            /* font-family: 'Roboto Mono', bold, sans-serif, monospace; */
             color: white;
-            font-weight: bolder;
-            font-size: 40px;
-            height: 10%;
+            /* font-weight: bold; */
+            font-size: 200%;
+            height: 15%;
             width: 50%;
             left: 25%;
             margin-bottom: 0px;
             padding-bottom: 0px;
             position: relative;
             text-align: center;
+        }
+        
+        .containerAbout {
+            background: linear-gradient(135deg, #25c481, #25b7c4);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 10px;
+            width: 60%;
+            height: 90%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-box-shadow: 0 30px 50px -20px #2e0642;
+            box-shadow: 0 30px 50px -20px #2e0642;
         }
         
         .projectImage1 {
@@ -271,6 +287,11 @@
             font-size: 3.5min;
             /* font-size: 30vmax; */
             padding-top: 10%;
+        }
+        
+        .about {
+            text-align: center;
+            line-height: 1.5;
         }
         
         .headerBorder {
