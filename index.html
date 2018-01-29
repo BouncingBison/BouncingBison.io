@@ -122,10 +122,7 @@
             <div class="projectImage2 "></div>
 
             <div class="projectDescription ">
-                <h2> Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans
-                    uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses
-                    the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce Artisans uses the MERN
-                    stack to connect contractors and customers with an experience built for Nigerian commerceArtisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
+                <h2>I love building projects from the ground up and developing the best possible iteration of what </h2>
 
             </div>
         </div>
@@ -178,7 +175,6 @@
 
             <div class="projectDescription ">
                 <h2>Artisans uses the MERN stack to connect contractors and customers with an experience built for Nigerian commerce</h2>
-
             </div>
         </div>
         <!-- <a href="#section5 " class="cd-scroll-down cd-img-replace "></a> -->
@@ -189,22 +185,12 @@
 
         <div class="containerGreeting hvr-round-corners">
 
-
-
             <div class="data3 txt-rotate headerBorder">More Projects Coming Soon</div>
             <div class="data3 projectReveal">Project One</div>
             <div class="data3 projectReveal"> Project Two</div>
             <div class="data3 projectReveal ">Project Three</div>
 
-
-
         </div>
-
-
-
-
-
-
         <!-- <a href="#section5 " class="cd-scroll-down cd-img-replace "></a> -->
     </section>
 
@@ -289,13 +275,7 @@
     <!-- reveal JS link  -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- form script -->
-    <script type="text/javascript">
-        //auto expand textarea
-        function adjust_textarea(h) {
-            h.style.height = "20px";
-            h.style.height = (h.scrollHeight) + "px";
-        }
-    </script>
+    <script type="js/form.js"></script>
 
     <script>
         // interval passed to reveal
@@ -308,36 +288,7 @@
         sr.reveal('.data3', 10);
     </script>
 
-    <script>
-        var $animation_elements = $('.animation-element');
-        var $window = $(window);
-
-        function check_if_in_view() {
-            var window_height = $window.height();
-            var window_top_position = $window.scrollTop();
-            var window_bottom_position = (window_top_position + window_height);
-
-            $.each($animation_elements, function() {
-                var $element = $(this);
-                var element_height = $element.outerHeight();
-                var element_top_position = $element.offset().top;
-                var element_bottom_position = (element_top_position + element_height);
-
-                //check to see if this current container is within viewport
-                if ((element_bottom_position >= window_top_position) &&
-                    (element_top_position <= window_bottom_position)) {
-                    $element.addClass('hvr-round-corners:active');
-                } else {
-                    $element.removeClass('in-view');
-                }
-            });
-        }
-
-        $window.on('scroll resize', check_if_in_view);
-        $window.trigger('scroll');
-    </script>
-
-
+    <script src="js/morph.js"></script>
 
     <!-- Submit the Form to Google Using "AJAX " -->
     <script data-cfasync="false " type="text/javascript " src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js "></script>
