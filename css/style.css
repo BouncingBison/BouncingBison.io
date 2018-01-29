@@ -280,18 +280,13 @@
         }
         
         #aboutStack {
-            font-family: 'Roboto Mono', bold, monospace;
-            font-weight: bold;
-            color: #ffffff;
             text-align: center;
-            font-size: 3.5min;
-            /* font-size: 30vmax; */
-            padding-top: 10%;
+            line-height: 1.25;
         }
         
         .about {
             text-align: center;
-            line-height: 1.5;
+            line-height: 2;
         }
         
         .headerBorder {
