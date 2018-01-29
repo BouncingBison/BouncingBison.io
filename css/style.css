@@ -406,8 +406,8 @@
             border-collapse: collapse;
             overflow: hidden;
             box-shadow: 0 0 50px rgba(110, 103, 103, 0.1);
-            background: -webkit-linear-gradient(left, #e24545, #73787973);
-            background: linear-gradient(right, #25c481, #25b7c4);
+            background: -webkit-linear-gradient(left, #acaaaa, #73787973);
+            /* background: linear-gradient(right, #25c481, #25b7c4); */
             -webkit-box-shadow: 0px 0px 35px 10px #000000;
             box-shadow: 0px 0px 35px 5px #000000;
         }
