@@ -278,15 +278,15 @@
             -webkit-box-shadow: 0 30px 50px 10px #2e0642;
             box-shadow: 0 30px 50px 10px #2e0642;
         }
-        
-        #aboutStack {
+        /* #aboutStack {
+            padding-bottom: 20px;
             text-align: center;
             line-height: 1.25;
-        }
+        } */
         
         .about {
             text-align: center;
-            line-height: 2;
+            line-height: 1.75;
         }
         
         .headerBorder {
@@ -399,14 +399,14 @@
         table {
             text-align: center;
             position: relative;
-            margin-top: 10%;
-            padding-top: 30%;
+            margin-top: 15%;
+            padding-top: 35%;
             left: 25%;
             width: 50%;
             border-collapse: collapse;
             overflow: hidden;
             box-shadow: 0 0 50px rgba(110, 103, 103, 0.1);
-            background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+            background: -webkit-linear-gradient(left, #e24545, #73787973);
             background: linear-gradient(right, #25c481, #25b7c4);
             -webkit-box-shadow: 0px 0px 35px 10px #000000;
             box-shadow: 0px 0px 35px 5px #000000;
